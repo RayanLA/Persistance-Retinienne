@@ -1,5 +1,6 @@
 {
   "name": "drawintheair",
+  "app-name" : "DrawInTheAir",
   "version": "1.0.0",
   "description": "App that permit to draw and write something. Send it to a  controller to show it on an persistent vision display",
   "main": "index.js",
@@ -10,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "androidjs": "^2.0.1"
-  }
+  },
+  "devDependencies": {}
 }
