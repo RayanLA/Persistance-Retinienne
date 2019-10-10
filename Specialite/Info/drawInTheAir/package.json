@@ -1,0 +1,31 @@
+{
+  "name": "drawintheair",
+  "app-name": "DrawInTheAir",
+  "package-name" : "mypkg",
+  "icon": "./assets/img/icon.jpg",
+  "dist-path": "./dist",
+  "project-type": "webview",
+  "permission": [
+    "android.permission.INTERNET",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_FINE_LOCATION"
+  ],
+  "version": "1.0.0",
+  "description": "App that permit to draw and write something. Send it to a  controller to show it on an persistent vision display",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas BOURNEUF; Rayan LA ROZE",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RayanLA/Persistance-Retinienne.git"
+  },
+  "dependencies": {
+    "androidjs": "^2.0.1"
+  },
+  "devDependencies": {}
+}
