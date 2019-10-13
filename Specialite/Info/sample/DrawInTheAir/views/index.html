@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../assets/style/bootstrap.min.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<style>
+	.app{
+		font-size:30px;
+	}
+</style>
+
+<body>
+
+	<!-- body container -->
+	<div id="app" class = "app" onclick="document.location.href='input.html'">
+		<div class="card" style="margin: 10px">
+			<div class="card-body">
+				<h5 class="card-title">Connectez vous au wifi </h5>
+				<h6 class="card-subtitle text-muted">Réseaux disponibles</h6>
+			</div>
+			<div id="availableWifi"></div>
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src = "../assets/script/script.js"></script>
+	<script src="../assets/script/jquery-3.3.1.slim.min.js"></script>
+	<script src="../assets/script/popper.min.js"></script>
+	<script src="../assets/script/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		/*new Promise(function(resolve, reject){
+			app.wifi.enable();
+			setTimeout(resolve, 5000);
+		}).then(function(){
+			let networks = app.wifi.getScanResults();
+			networks.forEach(function(network){
+				document.getElementById("availableWifi").value += network.SSID;
+			})
+			document.location.href="input.html";
+    available_networks.forEach(function(network){
+        if(network.SSID == "test"){
+            app.wifi.connect(network.SSID, "");
+        }
+    });
+});*/
+</script>
+</body>
+
+</html>

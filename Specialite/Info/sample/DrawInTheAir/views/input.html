@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Draw in the Air</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="../assets/style/style.css">
+	<link rel="stylesheet" href="../assets/style/bootstrap.min.css">
+	<!-- Javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+	.app{
+		font-size:30px;
+	}
+</style>
+
+<body>
+
+	<!-- body container -->
+	<div id="app" class = "app">
+		<div class="card" style="margin: 10px" id="topTitle">
+			<div class="card-body">
+				<h1 class="card-title">Draw in the Air</h1>
+				<h4 class="card-subtitle text-muted">Remote for Persistent Vision Display</h4>
+			</div>
+		</div>
+		<ul class="list-group" style="margin-right: 10px;margin-left: 10px">
+			<li class="list-group-item" @click="remove(u)" v-for="u in users">
+				<span :class="u.glyphicon" class="iconBootstrap"></span>{{u.option}}
+			</li>
+		</ul>
+	</div>
+
+
+	<script type="text/javascript" src = "../assets/script/input.js"></script>
+	<script src="../assets/script/jquery-3.3.1.slim.min.js"></script>
+	<script src="../assets/script/popper.min.js"></script>
+	<script src="../assets/script/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "DrawInTheAir",
+  "app-name":"Draw in the Air",
+  "package-name":"mypkg",
+  "project-type": "webview",
+  "icon":"./assets/icon/icon.png",
+  "dist-path":"./dist",
+  "permission":["android.permission.INTERNET", 
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_STATE"],
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas BOURNEUF, Rayan LA ROZE",
+  "license": "ISC",
+  "dependencies": {
+    "androidjs": "^1.0.5"
+  }
+}
